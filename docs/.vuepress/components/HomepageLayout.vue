@@ -2,7 +2,7 @@
   <div class="page">
     <div class="container">
       <h1 v-html="title"></h1>
-      <Content/>
+      <h2 v-html="author"></h2>
     </div>
   </div>
 </template>
