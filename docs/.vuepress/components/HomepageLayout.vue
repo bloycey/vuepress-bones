@@ -15,7 +15,7 @@ export default {
   },
   computed: {
     title: function() {
-      return this.$page.title;
+      return this.$siteTitle;
     }
   }
 };
