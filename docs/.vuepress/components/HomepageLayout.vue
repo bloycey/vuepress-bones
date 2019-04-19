@@ -1,9 +1,9 @@
 <template>
   <div class="page">
     <div class="container">
-      <h1 v-html="title"></h1>
-      <Banner bannerTitle="I am a banner title"/>
+      <h1 class="text-center">{{ title }}</h1>
     </div>
+    <Banner bannerTitle="I am a banner title"/>
   </div>
 </template>
 <script>
@@ -45,5 +45,9 @@ export default {
 
 img {
   max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
 }
 </style>
