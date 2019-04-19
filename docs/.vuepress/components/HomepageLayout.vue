@@ -42,4 +42,8 @@ export default {
     width: 1170px;
   }
 }
+
+img {
+  max-width: 100%;
+}
 </style>

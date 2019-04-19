@@ -2,7 +2,7 @@
   <div class="banner">
     <p>Banner Incoming</p>
     <p>{{ getInfo.title }}</p>
-    <p>{{ getInfo.image }}</p>
+    <img v-bind:src="getInfo.image" alt="Banner Image">
   </div>
 </template>
 <script>
