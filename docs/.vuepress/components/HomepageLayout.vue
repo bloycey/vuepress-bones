@@ -3,11 +3,17 @@
     <div class="container">
       <h1 v-html="title"></h1>
       <h2 v-html="author"></h2>
+      <Banner/>
     </div>
   </div>
 </template>
 <script>
+import Banner from "./BannerLayout";
 export default {
+  name: "homepage",
+  components: {
+    Banner
+  },
   computed: {
     title: function() {
       return this.$page.title;

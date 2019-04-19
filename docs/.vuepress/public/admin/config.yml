@@ -18,9 +18,9 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "Homepage Banner"
     label: "Homepage Banner"
-    folder: "docs"
+    folder: "homepage-banner"
     create: false
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Banner Image", name: "Banner Image", widget: "image"}
+      - {label: "image", name: "image", widget: "image"}

@@ -1,19 +1,19 @@
-const fs = require('fs');
-const path = require('path');
+// const fs = require('fs');
+// const path = require('path');
 
-var dirpath = "./docs"
+// var dirpath = "./docs"
 
-// generate sidenav order by update time
-var sb = fs.readdirSync(dirpath).filter(f => {
-  return f.match(/\.(md)$/i) && f !== 'README.md'
-}).map(f => {
-  return {
-    path: '/' + f,
-    mtime: fs.statSync(dirpath + '/' + f).mtime
-  }
-})
-  .sort((a, b) => a.mtime - b.mtime)
-  .map(f => f.path)
+// // generate sidenav order by update time
+// var sb = fs.readdirSync(dirpath).filter(f => {
+//   return f.match(/\.(md)$/i) && f !== 'README.md'
+// }).map(f => {
+//   return {
+//     path: '/' + f,
+//     mtime: fs.statSync(dirpath + '/' + f).mtime
+//   }
+// })
+//   .sort((a, b) => a.mtime - b.mtime)
+//   .map(f => f.path)
 
 module.exports = {
   title: 'Vuepress Bones',
@@ -21,7 +21,6 @@ module.exports = {
   themeConfig: {
     docsDir: 'docs',
     repo: 'bloycey/vuepress-bones',
-    sidebar: sb,
     lastUpdated: 'Last Updated'
   }
 }
