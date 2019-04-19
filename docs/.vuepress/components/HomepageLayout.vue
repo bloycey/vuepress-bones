@@ -2,13 +2,12 @@
   <div class="page">
     <div class="container">
       <h1 v-html="title"></h1>
-      <h2 v-html="author"></h2>
-      <Banner/>
+      <Banner bannerTitle="I am a banner title"/>
     </div>
   </div>
 </template>
 <script>
-import Banner from "./BannerLayout";
+import Banner from "./Banner";
 export default {
   name: "homepage",
   components: {

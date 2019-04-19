@@ -13,5 +13,4 @@ features:
   details: Leverage the power of netlify and VuePress to deploy statically 
 footer: MIT Licensed | Copyright © 2018-present Evan You
 title: Vuepress Bones
-author: Andrew Bloyce
 ---
