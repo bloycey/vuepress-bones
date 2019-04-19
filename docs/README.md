@@ -1,5 +1,5 @@
 ---
-home: true
+layout: HomepageLayout
 heroImage: ./assets/img/netlify_vuepress.png
 actionText: Go contents page →
 actionLink: /welcome
