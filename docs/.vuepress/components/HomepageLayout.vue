@@ -9,7 +9,7 @@
 <script>
 export default {
   computed: {
-    title() {
+    title: function() {
       return this.$page.title;
     }
   }
