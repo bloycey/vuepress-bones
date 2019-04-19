@@ -23,4 +23,4 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Banner Image" name: "Banner Image", widget: "image"}
+      - {label: "Banner Image", name: "Banner Image", widget: "image"}
