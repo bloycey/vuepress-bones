@@ -19,7 +19,7 @@ collections:
   - name: "Homepage Banner"
     label: "Homepage Banner"
     folder: "docs"
-    create: false,
+    create: false
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
