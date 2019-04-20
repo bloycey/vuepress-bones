@@ -1,5 +1,5 @@
 ---
-title: Title coming from banner component
+title: Welcome to Vuepress Bones
 image: /upload/bakery-slider.jpg
 ---
 
