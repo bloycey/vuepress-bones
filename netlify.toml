@@ -1,3 +1,8 @@
 [build]
   command = "yarn docs:build"
   publish = "docs/.vuepress/dist/"
+
+[[redirects]]
+  from = "/*"
+  to="/index.html"
+  status = 200
