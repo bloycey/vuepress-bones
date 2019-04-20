@@ -15,7 +15,7 @@ export default {
   name: "BlogOverview",
   computed: {
     getBlogItems: function() {
-      return getPagesArray(this.$site.pages, "/blog/").filter(
+      return getPagesArray(this.$site.pages, "/gulp-test/").filter(
         blog => blog.path !== "/blog/"
       );
     }
