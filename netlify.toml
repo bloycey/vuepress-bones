@@ -3,6 +3,6 @@
   publish = "docs/.vuepress/dist/"
 
 [[redirects]]
-  from = "/*"
-  to="/index.html"
+  from = "/*.html"
+  to="/:splat/"
   status = 200
