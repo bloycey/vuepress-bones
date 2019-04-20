@@ -1,9 +1,8 @@
 <template>
-  <div>
-    <h3>MENU GOES HERE</h3>
-    <ul v-for="item in getMenuItems">
-      <li>
-        <a v-bind:href="item.frontmatter.url">{{item.frontmatter.title}}</a>
+  <div class="container">
+    <ul class="menu-wrapper">
+      <li v-for="item in getMenuItems">
+        <router-link :to="item.frontmatter.url">{{ item.frontmatter.title }}</router-link>
       </li>
     </ul>
   </div>
@@ -19,6 +18,19 @@ export default {
   }
 };
 </script>
-<style>
+<style scoped>
+.menu-wrapper {
+  padding: 15px;
+  text-align: center;
+}
+
+.menu-wrapper li {
+  display: inline-block;
+}
+
+.menu-wrapper li a {
+  padding: 15px 30px;
+}
 </style>
+
 

@@ -7,7 +7,7 @@ export const getSinglePageInfo = (allPages, urlPath) => {
 
 export const getPagesArray = (allPages, urlPath) => {
     const pagesArray = allPages.filter(
-        page => page.path.includes(urlPath)
+        page => page.path.startsWith(urlPath)
     )
     return pagesArray;
 }
