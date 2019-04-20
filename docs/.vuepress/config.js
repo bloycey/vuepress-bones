@@ -4,6 +4,6 @@ module.exports = {
   themeConfig: {
     docsDir: 'docs',
     repo: 'bloycey/vuepress-bones',
-    lastUpdated: 'Last Updated'
+    navbar: false
   }
 }

@@ -8,14 +8,14 @@ media_folder: "docs/.vuepress/public/upload"
 public_folder: "/upload"
  
 collections:
-  - name: "doc"
-    label: "Doc"
-    folder: "docs"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+  # - name: "doc"
+  #   label: "Doc"
+  #   folder: "docs"
+  #   create: true
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - {label: "Title", name: "title", widget: "string"}
+  #     - {label: "Body", name: "body", widget: "markdown"}
   - name: "Homepage Banner"
     label: "Homepage Banner"
     folder: "docs/homepage-banner"
@@ -24,3 +24,10 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "image", name: "image", widget: "image"}
+  - name: "Menu Items"
+    label: "Menu Items"
+    folder: "docs/menu-items"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "url", name: "url", widget: "string"}
