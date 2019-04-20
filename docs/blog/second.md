@@ -1,4 +1,5 @@
 ---
+layout: PostLayout
 title: Second page testing
 ---
 ## This is second page

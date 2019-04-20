@@ -6,6 +6,7 @@
 </template>
 <script>
 export default {
+  title: "PostLayout",
   computed: {
     title() {
       return this.$page.title;
