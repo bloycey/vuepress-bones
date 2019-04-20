@@ -1,6 +1,6 @@
 ---
 layout: PostLayout
-title: First blog in new format
+title: Blog Post in a foder
 ---
 Here it is.
 

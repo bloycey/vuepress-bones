@@ -1,4 +1,5 @@
 const { series, src, dest } = require('gulp');
+const rename = require("gulp-rename")
 
 function defaultTask(cb) {
     cb();
@@ -6,7 +7,12 @@ function defaultTask(cb) {
 
 function moveFiles() {
     return src('docs/blog/*.md')
-        .pipe(dest('docs/gulp-test'))
+        .pipe(rename(function (file) {
+            file.dirname = file.basename
+            file.basename = "index";
+            file.extname = ".md";
+        }))
+        .pipe(dest('docs/bones-blog/'))
 }
 
 exports.moveFiles = moveFiles;

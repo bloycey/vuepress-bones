@@ -6,9 +6,8 @@
     "docs:build": "gulp moveFiles && vuepress build docs"
   },
   "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-rename": "^1.4.0",
     "vuepress": "^0.13.1"
-  },
-  "dependencies": {
-    "gulp": "^4.0.0"
   }
 }
