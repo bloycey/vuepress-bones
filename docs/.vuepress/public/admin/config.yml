@@ -29,5 +29,5 @@ collections:
     folder: "docs/menu-items"
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "title", name: "title", widget: "string"}
       - {label: "url", name: "url", widget: "string"}

@@ -3,15 +3,18 @@
     <div class="container">
       <h1 class="text-center">{{ siteTitle }}</h1>
     </div>
+    <Menu/>
     <Banner/>
   </div>
 </template>
 <script>
 import Banner from "./Banner";
+import Menu from "./Menu";
 export default {
   name: "homepage",
   components: {
-    Banner
+    Banner,
+    Menu
   },
   computed: {
     siteTitle: function() {
