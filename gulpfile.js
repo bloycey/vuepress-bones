@@ -1,8 +1,9 @@
 const { series, src, dest } = require('gulp');
+const del = require('del')
 const rename = require("gulp-rename")
 
-function defaultTask(cb) {
-    cb();
+function deleteFiles() {
+    return del(['docs/bones-blog/*'])
 }
 
 function moveFiles() {
@@ -15,5 +16,8 @@ function moveFiles() {
         .pipe(dest('docs/bones-blog/'))
 }
 
+exports.deleteFiles = deleteFiles;
 exports.moveFiles = moveFiles;
-exports.default = defaultTask;
+
+exports.prepare = series(deleteFiles, moveFiles)
+exports.default = series(deleteFiles, moveFiles)

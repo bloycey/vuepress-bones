@@ -2,10 +2,11 @@
   "name": "netlify-cms-vuepress",
   "description": "This is example vuepress with netlify CMS",
   "scripts": {
-    "docs:dev": "gulp moveFiles && vuepress dev docs",
-    "docs:build": "gulp moveFiles && vuepress build docs"
+    "docs:dev": "gulp prepare && vuepress dev docs",
+    "docs:build": "gulp prepare && vuepress build docs"
   },
   "devDependencies": {
+    "del": "^4.1.0",
     "gulp": "^4.0.0",
     "gulp-rename": "^1.4.0",
     "vuepress": "^0.13.1"

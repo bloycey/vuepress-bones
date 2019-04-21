@@ -1,14 +1,7 @@
 ## Netlify CMS example for vuepress 
 
 ### Deploy
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/toshilow/netlify-cms-vuepress)
-
-### Add Netlify Widget
-1. Open Netlify Build and Deploy settings page.
-1. Add Snippet injection
-``` html
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-```
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/bloycey/vuepress-bones)
 
 ### Setup Netlify Identity
 1. Open Netlify Identity Settings page.
@@ -32,3 +25,9 @@ yarn install
 # Start local dev server
 yarn docs:dev
 ```
+
+### Useful Links
+
+- Collection Types. These are defined in `docs/.vuepress/public/admin/config.yml` : https://www.netlifycms.org/docs/collection-types/
+
+
