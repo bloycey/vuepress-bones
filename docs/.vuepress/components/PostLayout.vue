@@ -1,7 +1,9 @@
 <template>
   <div class="page">
-    <h1>{{ title }}</h1>
-    <Content/>
+    <div class="container">
+      <h1>{{ title }}</h1>
+      <Content/>
+    </div>
   </div>
 </template>
 <script>

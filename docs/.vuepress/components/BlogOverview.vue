@@ -15,9 +15,7 @@ export default {
   name: "BlogOverview",
   computed: {
     getBlogItems: function() {
-      return getPagesArray(this.$site.pages, "/bones-blog/").filter(
-        blog => blog.path !== "/bones-blog/index/"
-      );
+      return getPagesArray(this.$site.pages, "/bones-blog/");
     }
   }
 };

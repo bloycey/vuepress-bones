@@ -6,7 +6,7 @@ function defaultTask(cb) {
 }
 
 function moveFiles() {
-    return src('docs/blog/*.md')
+    return src('docs/blog/blog-posts/*.md')
         .pipe(rename(function (file) {
             file.dirname = file.basename
             file.basename = "index";

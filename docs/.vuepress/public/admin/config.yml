@@ -10,7 +10,7 @@ public_folder: "/upload"
 collections:
   - name: "Blogs"
     label: "Blogs"
-    folder: "docs/blog"
+    folder: "docs/blog/blog-posts"
     create: true
     slug: "{{slug}}"
     fields:
