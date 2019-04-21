@@ -31,3 +31,10 @@ yarn docs:dev
 - Collection Types. These are defined in `docs/.vuepress/public/admin/config.yml` : https://www.netlifycms.org/docs/collection-types/
 
 
+### To Do
+
+- Sort out what to do with the default theme files. Should they be deleted? Moved to a different folder?
+- Create a template for blog thumbnails.
+- Implement sortorder menu items.
+- Implement date posted for blogs.
+- Work out how to do pagination.
