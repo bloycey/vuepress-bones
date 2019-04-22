@@ -1,5 +1,5 @@
 ---
 title: Welcome to Vuepress Bones
-image: /upload/bakery-slider.jpg
+image: /upload/dog-banjo.png
 ---
 
