@@ -1,20 +1,17 @@
 <template>
-  <div class="page">
-    <div class="container">
-      <h1 class="text-center">{{ siteTitle }}</h1>
-    </div>
-    <Menu/>
+  <div class="homepage-wrapper">
+    <Header/>
     <Banner/>
   </div>
 </template>
 <script>
+import Header from "./Header";
 import Banner from "./Banner";
-import Menu from "./Menu";
 export default {
   name: "homepage",
   components: {
-    Banner,
-    Menu
+    Header,
+    Banner
   },
   computed: {
     siteTitle: function() {

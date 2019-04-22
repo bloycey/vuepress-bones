@@ -36,6 +36,5 @@ yarn docs:dev
 
 - Sort out what to do with the default theme files. Should they be deleted? Moved to a different folder?
 - Create a template for blog thumbnails including featured image.
-- Implement sortorder menu items.
-- Implement date posted for blogs.
 - Work out how to do pagination.
+- How to do contact forms with Netlify?
