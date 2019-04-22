@@ -15,7 +15,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "PostLayout"}
-        {label: "Date Created", name: "date", widget: "date"}
+      - {label: "Date Created", name: "date", widget: "date"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "Homepage Banner"
