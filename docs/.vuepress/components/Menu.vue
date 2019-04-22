@@ -13,7 +13,9 @@ export default {
   name: "Menu",
   computed: {
     getMenuItems: function() {
-      return getPagesArray(this.$site.pages, "/menu-items/");
+      return getPagesArray(this.$site.pages, "/menu-items/").sort(
+        (a, b) => b.frontmatter.sortorder - a.frontmatter.sortorder
+      );
     }
   }
 };

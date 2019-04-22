@@ -29,6 +29,7 @@ yarn docs:dev
 ### Useful Links
 
 - Collection Types. These are defined in `docs/.vuepress/public/admin/config.yml` : https://www.netlifycms.org/docs/collection-types/
+- Widget types. https://www.netlifycms.org/docs/widgets/ 
 
 
 ### To Do
